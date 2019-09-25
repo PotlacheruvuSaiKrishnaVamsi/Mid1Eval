@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 public class Main{
- 	public static void Main(String args[]){
+ 	public static void main(String args[]){
 		Scanner scan = new Scanner(System.in);
 		int select = scan.nextInt();
 		Operation op = null;
