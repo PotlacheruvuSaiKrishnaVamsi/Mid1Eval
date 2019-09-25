@@ -3,9 +3,9 @@ import java.util.*;
 public class Main{
  	public static void main(String args[]){
 		Scanner scan = new Scanner(System.in);
-		int select = scan.nextInt();
 		Operation op = null;
 		System.out.println("1-Addtion,2-Multiplication,3-Subtraction,4-Division");
+		int select = scan.nextInt();
 		double a,b;
 		System.out.println("Enter two numbers");
 		a = scan.nextDouble();
